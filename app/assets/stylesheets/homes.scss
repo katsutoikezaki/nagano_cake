@@ -2,22 +2,93 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 header {
-  width: 90%; /* 横幅90% */
+  width: 100%;
   padding: 15px 0;
   margin: 0 auto;
-}
-header.heading {
-  text-align: left;
+  background-color: #FF99CC;
 }
 
 .nav-list {
-  text-align: right;
   padding: 10px 0;
   margin: 0 auto;
 }
 
 .nav-list-item {
-  list-style: none;
-  display: inline-block;
-  margin: 0 20px;
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px 10px;
+}
+.nav-list-item > :first-child {
+  margin-right: auto;
+}
+
+.main-visual {
+  width: 80%;
+  height: 300px;
+  margin: 20px auto;
+  padding: 70px 0;
+  background-image: url(img/ケーキ素材.jpg);
+}
+
+.main-visual-content {
+  width: 60%;
+  margin: 0 auto;
+}
+
+main {
+  width: 90%;
+  height: 200px;
+  margin: 20px auto;
+  padding: 10px 10px;
+}
+
+.new-item-haeding {
+  font-weight: bold;
+}
+
+.new-item {
+  display: flex;
+  align-items: flex-start;
+}
+
+.new-item-box {
+  width: 300px;
+  margin-right: 30px;
+  padding: 10px;
+  position: relative;
+  background-color: #eee;
+}
+
+.new-items-img1 {
+  height: 150px;
+  background-image: url(img/ケーキ素材.jpg);
+  background-position: bottom;
+  background-size: cover;
+}
+
+.new-items-img2 {
+  height: 150px;
+  background-image: url(img/ケーキ素材.jpg);
+  background-position: bottom;
+  background-size: cover;
+}
+
+.new-items-img3 {
+  height: 150px;
+  background-image: url(img/ケーキ素材.jpg);
+  background-position: bottom;
+  background-size: cover;
+}
+
+.new-items-img4 {
+  height: 150px;
+  background-image: url(img/ケーキ素材.jpg);
+  background-position: bottom;
+  background-size: cover;
+}
+
+footer {
+  width: 100%;
+  height: 50px;
+  background-color: #FFCCFF;
 }
